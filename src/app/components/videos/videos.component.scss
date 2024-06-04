@@ -1,0 +1,29 @@
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.video-container {
+    flex: 0 1 calc(33.333% - 20px); /* 3 vídeos por linha com espaço entre eles */
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 35.25%; /* Proporção  */
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+
+.video-iframe {
+    width: 300px; /* Defina a largura desejada */
+    height: 169px; /* Defina a altura desejada */
+}
+
+
+
+
+
