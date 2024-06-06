@@ -117,7 +117,16 @@
     grid-column: 1/-1;
   }
 }
-
-::ng-deep .mdc-linear-progress__bar-inner {
-  top: 40px !important;
+:host {
+  --mdc-linear-progress-active-indicator-height: 6px;
+  
 }
+
+/*  :host .mdc-linear-progress {
+  top: 40px !important;
+  height: 5px !important;
+  overflow: hidden;
+  color: rebeccapurple;
+}
+ */
+

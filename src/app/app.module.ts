@@ -11,8 +11,7 @@ import { ResumoComponent } from './components/resumo/resumo.component';
 import { VideosComponent } from './components/videos/videos.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
-
-
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -28,7 +27,8 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
     BrowserModule,
     AppRoutingModule,
     MatIconModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatGridListModule
     
    
 
