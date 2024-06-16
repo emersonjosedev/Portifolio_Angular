@@ -1,0 +1,36 @@
+.footer_sociais {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+}
+
+.footer_sociais li {
+    border-radius: 50%;
+    background-color: #212020;
+    border: 1px solid #333;
+}
+
+.footer_sociais li i {
+    padding: 30px;
+    font-size: 1.5rem;
+    color: 363636;
+}
+
+.footer_sociais li:hover {
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    background-color: #3e3d3d;
+}
+
+.footer_sociais::before {
+    position: absolute;
+    content: '';
+    bottom: -30px;
+    height: 5px;
+    width: 200px;
+    background-color: #222;
+}
+

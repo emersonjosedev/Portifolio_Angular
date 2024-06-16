@@ -1,12 +1,16 @@
 <header class="main-menu">
+  <nav>
+    <mat-icon class="icone" *ngIf=" isSmallScreen "(click)="clicar()"  > menu</mat-icon>
+    <ul *ngIf="isBigScren || cliclou "  aria-label="Navegação primária" class="main navegacao-primaria">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://wa.me/qr/QP7DRHTYGNP3B1">Contato</a></li>
+
+    </ul>
+  
+</nav>
+   
     <h1>Portfolio <span>Emerson Jose</span></h1>
-    <nav>
-        <ul aria-label="Navegação primária" class="main navegacao-primaria">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="https://wa.me/qr/QP7DRHTYGNP3B1">Contato</a></li>
-        </ul>
-        <i class="fa-solid fa-bars"></i>
-    </nav>
+  
 
 </header>
  

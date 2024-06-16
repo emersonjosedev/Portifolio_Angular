@@ -37,5 +37,35 @@
     padding: 0px;
     border-bottom: 4px solid #7922ca;
 }
+.icone{
+    color: #fff !important;
+}
 
 }
+
+@media(max-width: 450px){
+
+    .main-menu{
+     h1{
+        font-size: 1.5rem;
+     }
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        
+    }
+
+    .navegacao-primaria{
+        gap: 5px !important;
+       }
+     }
+
+
+
+.icone{
+    color: #fff !important;
+}
+
+
