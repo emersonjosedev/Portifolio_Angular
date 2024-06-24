@@ -6,8 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ModulosExternosModule } from './modules/modulos-externos/modulos-externos.module';
 
+
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent,],
   imports: [AppRoutingModule, MenuPortifolioModule, ModulosExternosModule],
   providers: [],
   bootstrap: [AppComponent],

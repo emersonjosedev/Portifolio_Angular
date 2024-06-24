@@ -2,11 +2,12 @@ import { Component,OnInit, Inject, PLATFORM_ID  } from '@angular/core';
 import { WindowSizeService } from '../../services/window-size.service';
 
 @Component({
-  selector: 'app-menu',
-  templateUrl: './menu.component.html',
-  styleUrl: './menu.component.scss'
+  selector: 'app-menu-bar',
+  templateUrl: './menu-bar.component.html',
+  styleUrl: './menu-bar.component.scss'
 })
-export class MenuComponent  implements OnInit {
+
+export class MenuBarComponent  implements OnInit {
 
   
   isSmallScreen: boolean = false;

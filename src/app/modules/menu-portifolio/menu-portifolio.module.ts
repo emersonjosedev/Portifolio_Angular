@@ -11,6 +11,8 @@ import { RodapeComponent } from '../../components/rodape/rodape.component';
 import {SocialCardsComponent} from '../../components/social-cards/social-cards.component';
 import { ModulosExternosModule } from '../modulos-externos/modulos-externos.module';
 
+import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
+
 @NgModule({
   declarations: [
     MenuComponent,
@@ -20,6 +22,7 @@ import { ModulosExternosModule } from '../modulos-externos/modulos-externos.modu
     VideosComponent,
     RodapeComponent,
     SocialCardsComponent,
+    MenuBarComponent,
   ],
   imports: [CommonModule, ModulosExternosModule],
   exports: [
@@ -30,6 +33,7 @@ import { ModulosExternosModule } from '../modulos-externos/modulos-externos.modu
     VideosComponent,
     RodapeComponent,
     SocialCardsComponent,
+    MenuBarComponent 
   ],
 })
 export class MenuPortifolioModule {}
