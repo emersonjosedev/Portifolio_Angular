@@ -5,11 +5,11 @@ import { MenuPortifolioModule } from './modules/menu-portifolio/menu-portifolio.
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ModulosExternosModule } from './modules/modulos-externos/modulos-externos.module';
-import { LogosComponent } from './components/logos/logos.component';
+
 
 
 @NgModule({
-  declarations: [AppComponent, LogosComponent,],
+  declarations: [AppComponent, ],
   imports: [AppRoutingModule, MenuPortifolioModule, ModulosExternosModule],
   providers: [],
   bootstrap: [AppComponent],

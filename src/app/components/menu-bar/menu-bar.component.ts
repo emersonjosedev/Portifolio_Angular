@@ -1,5 +1,5 @@
 import { Component,OnInit, Inject, PLATFORM_ID  } from '@angular/core';
-import { WindowSizeService } from '../../services/window-size.service';
+import { WindowSizeService } from '../../services/window-size/window-size.service';
 
 @Component({
   selector: 'app-menu-bar',

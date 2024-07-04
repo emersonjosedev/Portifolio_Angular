@@ -12,6 +12,9 @@ import {SocialCardsComponent} from '../../components/social-cards/social-cards.c
 import { ModulosExternosModule } from '../modulos-externos/modulos-externos.module';
 
 import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
+import { LogosComponent } from '../../components/logos/logos.component';
+import { IntervalComponent } from '../../components/rxjs/interval/interval.component';
+import{TimerService} from '../../services/timer/timer.service'
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
     RodapeComponent,
     SocialCardsComponent,
     MenuBarComponent,
+    LogosComponent,
+    IntervalComponent,
+
   ],
   imports: [CommonModule, ModulosExternosModule],
   exports: [
@@ -33,7 +39,9 @@ import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
     VideosComponent,
     RodapeComponent,
     SocialCardsComponent,
-    MenuBarComponent 
+    MenuBarComponent,
+    LogosComponent,
+    IntervalComponent,
   ],
 })
 export class MenuPortifolioModule {}
